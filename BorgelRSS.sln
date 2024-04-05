@@ -1,9 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29609.76
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BorgelRSS", "BorgelRSS\BorgelRSS.csproj", "{488FF639-B7D7-4BFB-B1F2-8DC6314945D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BorgelRSS", "BorgelRSS\BorgelRSS.csproj", "{488FF639-B7D7-4BFB-B1F2-8DC6314945D4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BorgelMPA", "BorgelMPA\BorgelMPA.csproj", "{2EC5589E-F484-425C-8DAC-1AA1AF9BBAFD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BorgelRSSLib", "BorgelRSSLib\BorgelRSSLib.csproj", "{9FA1CD6D-3B76-4B29-A055-9102EFFE65CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChronoGrapherLogs", "ChronoGrapherLogs\ChronoGrapherLogs.csproj", "{6643A189-5ABF-4B19-9F87-62C3B78AD92F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HotSteel", "HotSteel", "{1C195C5B-9788-4FEA-A17C-759A2EAFA05C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HotSteel.Farrago.Rest", "..\ChronoGrapher\HotSteel\HotSteel.Farrago.Rest\HotSteel.Farrago.Rest.csproj", "{86301B9C-F87D-465C-9FDB-DF6ECA807AAB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +25,28 @@ Global
 		{488FF639-B7D7-4BFB-B1F2-8DC6314945D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{488FF639-B7D7-4BFB-B1F2-8DC6314945D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{488FF639-B7D7-4BFB-B1F2-8DC6314945D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EC5589E-F484-425C-8DAC-1AA1AF9BBAFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EC5589E-F484-425C-8DAC-1AA1AF9BBAFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EC5589E-F484-425C-8DAC-1AA1AF9BBAFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EC5589E-F484-425C-8DAC-1AA1AF9BBAFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FA1CD6D-3B76-4B29-A055-9102EFFE65CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FA1CD6D-3B76-4B29-A055-9102EFFE65CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FA1CD6D-3B76-4B29-A055-9102EFFE65CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FA1CD6D-3B76-4B29-A055-9102EFFE65CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6643A189-5ABF-4B19-9F87-62C3B78AD92F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6643A189-5ABF-4B19-9F87-62C3B78AD92F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6643A189-5ABF-4B19-9F87-62C3B78AD92F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6643A189-5ABF-4B19-9F87-62C3B78AD92F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86301B9C-F87D-465C-9FDB-DF6ECA807AAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86301B9C-F87D-465C-9FDB-DF6ECA807AAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86301B9C-F87D-465C-9FDB-DF6ECA807AAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86301B9C-F87D-465C-9FDB-DF6ECA807AAB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{86301B9C-F87D-465C-9FDB-DF6ECA807AAB} = {1C195C5B-9788-4FEA-A17C-759A2EAFA05C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D95DF836-4542-46A3-AF3F-4841335CE1D1}
